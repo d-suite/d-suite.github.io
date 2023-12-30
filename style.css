@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter');
+
+body {
+    max-width: 512px;
+    margin: auto;
+    background-color: black;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+a {
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+}
+
+.nav {
+    background-color: rgba(0, 0, 0, 0);
+    backdrop-filter: blur(8px);
+    border-bottom: solid 1px rgba(255, 255, 255, 0.25);
+    padding-top: 15px;
+    padding-bottom: 10px;
+    position: sticky;
+    top: 0;
+}
+
+.footer {
+    border-top: solid 1px rgba(255, 255, 255, 0.25);
+    text-align: center;
+}
